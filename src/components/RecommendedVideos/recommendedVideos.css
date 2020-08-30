@@ -1,0 +1,4 @@
+.recommendedVideos{
+    flex: 0.8 !important;
+    border : 1px solid black;
+}
