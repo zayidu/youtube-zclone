@@ -8,26 +8,21 @@ import SearchPage from './components/SearchPage/SearhPage';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
+  // BEM class naming convention
   return (
-    // BEM class naming convention
     <div className="app">
       <Router>
-        {/* Header  */}
         <Header />
         <Switch>
           <Route path="/search/:searchTerm">
             <div className="app__page">
-              {/* SideBar  */}
               <SideBar />
-              {/* SearchPage  */}
               <SearchPage />
             </div>
           </Route>
           <Route path="/">
             <div className="app__page">
-              {/* SideBar  */}
               <SideBar />
-              {/* Recommended Videos  */}
               <RecommendedVideos />
             </div>
           </Route>

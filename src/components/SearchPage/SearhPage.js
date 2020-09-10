@@ -3,7 +3,7 @@ import './searchPage.css';
 import TuneOutlinedIcon from '@material-ui/icons/TuneOutlined';
 import ChannelRow from './ChannelRow';
 import VideoRow from './VideoRow';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function SearhPage() {
   return (
@@ -13,8 +13,6 @@ function SearhPage() {
         <h2>Filter</h2>
       </div>
       <hr />
-      {/* <Link to="https://www.youtube.com/user/zayidu11"> */}
-      {/* <a href="https://www.youtube.com/user/zayidu11" target="_blank"> */}
       <ChannelRow
         image="https://scontent.ffjr1-4.fna.fbcdn.net/v/t1.0-9/37907292_1920032391392076_8776234502180569088_o.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=4jU2UoDpfj4AX_wAGsw&_nc_ht=scontent.ffjr1-4.fna&oh=0b8dc58d4db9d0aa291907a754b0f413&oe=5F7BFFD3"
         channel="Zayidu Ansari"
@@ -23,8 +21,6 @@ function SearhPage() {
         noOfVideos={15}
         description="Programmer || Coding || CrossFit || coding=true. this.setState({Zayidu: True}) Subscribe for awesome contents. Love Love!!!"
       />
-      {/* </Link> */}
-      {/* </a> */}
       <hr />
 
       <VideoRow
